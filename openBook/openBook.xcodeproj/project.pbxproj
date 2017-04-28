@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B011DAB81EB1ED8F001FB7E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B011DAB71EB1ED8F001FB7E5 /* main.m */; };
+		B011DABB1EB1ED8F001FB7E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B011DABA1EB1ED8F001FB7E5 /* AppDelegate.m */; };
+		B011DABE1EB1ED8F001FB7E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B011DABD1EB1ED8F001FB7E5 /* ViewController.m */; };
+		B011DAC11EB1ED8F001FB7E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B011DABF1EB1ED8F001FB7E5 /* Main.storyboard */; };
+		B011DAC31EB1ED8F001FB7E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B011DAC21EB1ED8F001FB7E5 /* Assets.xcassets */; };
+		B011DAC61EB1ED8F001FB7E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B011DAC41EB1ED8F001FB7E5 /* LaunchScreen.storyboard */; };
+		B011DAD11EB1ED8F001FB7E5 /* openBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B011DAD01EB1ED8F001FB7E5 /* openBookTests.m */; };
+		B011DADC1EB1ED90001FB7E5 /* openBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B011DADB1EB1ED90001FB7E5 /* openBookUITests.m */; };
+		B011DAEB1EB208F2001FB7E5 /* plachtor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B011DAE91EB208F2001FB7E5 /* plachtor@2x.png */; };
+		B011DAEC1EB208F2001FB7E5 /* plachtor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B011DAEA1EB208F2001FB7E5 /* plachtor@3x.png */; };
+		B011DAFD1EB2136E001FB7E5 /* AM_CustomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B011DAF81EB2136E001FB7E5 /* AM_CustomTransition.m */; };
+		B011DAFE1EB2136E001FB7E5 /* RedBookFromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B011DAFA1EB2136E001FB7E5 /* RedBookFromViewController.m */; };
+		B011DAFF1EB2136E001FB7E5 /* RedBookToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B011DAFC1EB2136E001FB7E5 /* RedBookToViewController.m */; };
+		B0D702441EB2D11F000E6DA3 /* ST_BookView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7023F1EB2D11F000E6DA3 /* ST_BookView.m */; };
+		B0D702451EB2D11F000E6DA3 /* ST_openBookAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D702411EB2D11F000E6DA3 /* ST_openBookAnimation.m */; };
+		B0D702461EB2D11F000E6DA3 /* ST_openBookSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D702431EB2D11F000E6DA3 /* ST_openBookSegue.m */; };
+		B0D7024B1EB2D27F000E6DA3 /* OpenBookFromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7024A1EB2D27F000E6DA3 /* OpenBookFromViewController.m */; };
+		B0D7024E1EB2D28D000E6DA3 /* OpenBookToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D7024D1EB2D28D000E6DA3 /* OpenBookToViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B011DACD1EB1ED8F001FB7E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B011DAAB1EB1ED8F001FB7E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B011DAB21EB1ED8F001FB7E5;
+			remoteInfo = openBook;
+		};
+		B011DAD81EB1ED90001FB7E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B011DAAB1EB1ED8F001FB7E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B011DAB21EB1ED8F001FB7E5;
+			remoteInfo = openBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B011DAB31EB1ED8F001FB7E5 /* openBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B011DAB71EB1ED8F001FB7E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B011DAB91EB1ED8F001FB7E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B011DABA1EB1ED8F001FB7E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B011DABC1EB1ED8F001FB7E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B011DABD1EB1ED8F001FB7E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B011DAC01EB1ED8F001FB7E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B011DAC21EB1ED8F001FB7E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B011DAC51EB1ED8F001FB7E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B011DAC71EB1ED8F001FB7E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B011DACC1EB1ED8F001FB7E5 /* openBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B011DAD01EB1ED8F001FB7E5 /* openBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openBookTests.m; sourceTree = "<group>"; };
+		B011DAD21EB1ED8F001FB7E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B011DAD71EB1ED90001FB7E5 /* openBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B011DADB1EB1ED90001FB7E5 /* openBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openBookUITests.m; sourceTree = "<group>"; };
+		B011DADD1EB1ED90001FB7E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B011DAE91EB208F2001FB7E5 /* plachtor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plachtor@2x.png"; sourceTree = "<group>"; };
+		B011DAEA1EB208F2001FB7E5 /* plachtor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plachtor@3x.png"; sourceTree = "<group>"; };
+		B011DAF71EB2136E001FB7E5 /* AM_CustomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AM_CustomTransition.h; sourceTree = "<group>"; };
+		B011DAF81EB2136E001FB7E5 /* AM_CustomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AM_CustomTransition.m; sourceTree = "<group>"; };
+		B011DAF91EB2136E001FB7E5 /* RedBookFromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedBookFromViewController.h; sourceTree = "<group>"; };
+		B011DAFA1EB2136E001FB7E5 /* RedBookFromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedBookFromViewController.m; sourceTree = "<group>"; };
+		B011DAFB1EB2136E001FB7E5 /* RedBookToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedBookToViewController.h; sourceTree = "<group>"; };
+		B011DAFC1EB2136E001FB7E5 /* RedBookToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedBookToViewController.m; sourceTree = "<group>"; };
+		B0D7023E1EB2D11F000E6DA3 /* ST_BookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ST_BookView.h; sourceTree = "<group>"; };
+		B0D7023F1EB2D11F000E6DA3 /* ST_BookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ST_BookView.m; sourceTree = "<group>"; };
+		B0D702401EB2D11F000E6DA3 /* ST_openBookAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ST_openBookAnimation.h; sourceTree = "<group>"; };
+		B0D702411EB2D11F000E6DA3 /* ST_openBookAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ST_openBookAnimation.m; sourceTree = "<group>"; };
+		B0D702421EB2D11F000E6DA3 /* ST_openBookSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ST_openBookSegue.h; sourceTree = "<group>"; };
+		B0D702431EB2D11F000E6DA3 /* ST_openBookSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ST_openBookSegue.m; sourceTree = "<group>"; };
+		B0D702491EB2D27F000E6DA3 /* OpenBookFromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenBookFromViewController.h; sourceTree = "<group>"; };
+		B0D7024A1EB2D27F000E6DA3 /* OpenBookFromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenBookFromViewController.m; sourceTree = "<group>"; };
+		B0D7024C1EB2D28D000E6DA3 /* OpenBookToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenBookToViewController.h; sourceTree = "<group>"; };
+		B0D7024D1EB2D28D000E6DA3 /* OpenBookToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenBookToViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B011DAB01EB1ED8F001FB7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B011DAC91EB1ED8F001FB7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B011DAD41EB1ED90001FB7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B011DAAA1EB1ED8F001FB7E5 = {
+			isa = PBXGroup;
+			children = (
+				B011DAB51EB1ED8F001FB7E5 /* openBook */,
+				B011DACF1EB1ED8F001FB7E5 /* openBookTests */,
+				B011DADA1EB1ED90001FB7E5 /* openBookUITests */,
+				B011DAB41EB1ED8F001FB7E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B011DAB41EB1ED8F001FB7E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B011DAB31EB1ED8F001FB7E5 /* openBook.app */,
+				B011DACC1EB1ED8F001FB7E5 /* openBookTests.xctest */,
+				B011DAD71EB1ED90001FB7E5 /* openBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B011DAB51EB1ED8F001FB7E5 /* openBook */ = {
+			isa = PBXGroup;
+			children = (
+				B011DAE91EB208F2001FB7E5 /* plachtor@2x.png */,
+				B011DAEA1EB208F2001FB7E5 /* plachtor@3x.png */,
+				B011DAB91EB1ED8F001FB7E5 /* AppDelegate.h */,
+				B011DABA1EB1ED8F001FB7E5 /* AppDelegate.m */,
+				B011DB001EB2C96F001FB7E5 /* openBook */,
+				B011DAF61EB2134E001FB7E5 /* RedBook */,
+				B011DABC1EB1ED8F001FB7E5 /* ViewController.h */,
+				B011DABD1EB1ED8F001FB7E5 /* ViewController.m */,
+				B011DABF1EB1ED8F001FB7E5 /* Main.storyboard */,
+				B011DAC21EB1ED8F001FB7E5 /* Assets.xcassets */,
+				B011DAC41EB1ED8F001FB7E5 /* LaunchScreen.storyboard */,
+				B011DAC71EB1ED8F001FB7E5 /* Info.plist */,
+				B011DAB61EB1ED8F001FB7E5 /* Supporting Files */,
+			);
+			path = openBook;
+			sourceTree = "<group>";
+		};
+		B011DAB61EB1ED8F001FB7E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B011DAB71EB1ED8F001FB7E5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B011DACF1EB1ED8F001FB7E5 /* openBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				B011DAD01EB1ED8F001FB7E5 /* openBookTests.m */,
+				B011DAD21EB1ED8F001FB7E5 /* Info.plist */,
+			);
+			path = openBookTests;
+			sourceTree = "<group>";
+		};
+		B011DADA1EB1ED90001FB7E5 /* openBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B011DADB1EB1ED90001FB7E5 /* openBookUITests.m */,
+				B011DADD1EB1ED90001FB7E5 /* Info.plist */,
+			);
+			path = openBookUITests;
+			sourceTree = "<group>";
+		};
+		B011DAF61EB2134E001FB7E5 /* RedBook */ = {
+			isa = PBXGroup;
+			children = (
+				B011DAF71EB2136E001FB7E5 /* AM_CustomTransition.h */,
+				B011DAF81EB2136E001FB7E5 /* AM_CustomTransition.m */,
+				B011DAF91EB2136E001FB7E5 /* RedBookFromViewController.h */,
+				B011DAFA1EB2136E001FB7E5 /* RedBookFromViewController.m */,
+				B011DAFB1EB2136E001FB7E5 /* RedBookToViewController.h */,
+				B011DAFC1EB2136E001FB7E5 /* RedBookToViewController.m */,
+			);
+			path = RedBook;
+			sourceTree = "<group>";
+		};
+		B011DB001EB2C96F001FB7E5 /* openBook */ = {
+			isa = PBXGroup;
+			children = (
+				B0D702481EB2D25F000E6DA3 /* openBookVC */,
+				B0D7023D1EB2D11F000E6DA3 /* openBookLib */,
+			);
+			path = openBook;
+			sourceTree = "<group>";
+		};
+		B0D7023D1EB2D11F000E6DA3 /* openBookLib */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7023E1EB2D11F000E6DA3 /* ST_BookView.h */,
+				B0D7023F1EB2D11F000E6DA3 /* ST_BookView.m */,
+				B0D702401EB2D11F000E6DA3 /* ST_openBookAnimation.h */,
+				B0D702411EB2D11F000E6DA3 /* ST_openBookAnimation.m */,
+				B0D702421EB2D11F000E6DA3 /* ST_openBookSegue.h */,
+				B0D702431EB2D11F000E6DA3 /* ST_openBookSegue.m */,
+			);
+			path = openBookLib;
+			sourceTree = "<group>";
+		};
+		B0D702481EB2D25F000E6DA3 /* openBookVC */ = {
+			isa = PBXGroup;
+			children = (
+				B0D702491EB2D27F000E6DA3 /* OpenBookFromViewController.h */,
+				B0D7024A1EB2D27F000E6DA3 /* OpenBookFromViewController.m */,
+				B0D7024C1EB2D28D000E6DA3 /* OpenBookToViewController.h */,
+				B0D7024D1EB2D28D000E6DA3 /* OpenBookToViewController.m */,
+			);
+			path = openBookVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B011DAB21EB1ED8F001FB7E5 /* openBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B011DAE01EB1ED90001FB7E5 /* Build configuration list for PBXNativeTarget "openBook" */;
+			buildPhases = (
+				B011DAAF1EB1ED8F001FB7E5 /* Sources */,
+				B011DAB01EB1ED8F001FB7E5 /* Frameworks */,
+				B011DAB11EB1ED8F001FB7E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openBook;
+			productName = openBook;
+			productReference = B011DAB31EB1ED8F001FB7E5 /* openBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B011DACB1EB1ED8F001FB7E5 /* openBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B011DAE31EB1ED90001FB7E5 /* Build configuration list for PBXNativeTarget "openBookTests" */;
+			buildPhases = (
+				B011DAC81EB1ED8F001FB7E5 /* Sources */,
+				B011DAC91EB1ED8F001FB7E5 /* Frameworks */,
+				B011DACA1EB1ED8F001FB7E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B011DACE1EB1ED8F001FB7E5 /* PBXTargetDependency */,
+			);
+			name = openBookTests;
+			productName = openBookTests;
+			productReference = B011DACC1EB1ED8F001FB7E5 /* openBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B011DAD61EB1ED90001FB7E5 /* openBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B011DAE61EB1ED90001FB7E5 /* Build configuration list for PBXNativeTarget "openBookUITests" */;
+			buildPhases = (
+				B011DAD31EB1ED90001FB7E5 /* Sources */,
+				B011DAD41EB1ED90001FB7E5 /* Frameworks */,
+				B011DAD51EB1ED90001FB7E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B011DAD91EB1ED90001FB7E5 /* PBXTargetDependency */,
+			);
+			name = openBookUITests;
+			productName = openBookUITests;
+			productReference = B011DAD71EB1ED90001FB7E5 /* openBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B011DAAB1EB1ED8F001FB7E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = STT;
+				TargetAttributes = {
+					B011DAB21EB1ED8F001FB7E5 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 58Q3TS35HC;
+						ProvisioningStyle = Automatic;
+					};
+					B011DACB1EB1ED8F001FB7E5 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B011DAB21EB1ED8F001FB7E5;
+					};
+					B011DAD61EB1ED90001FB7E5 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B011DAB21EB1ED8F001FB7E5;
+					};
+				};
+			};
+			buildConfigurationList = B011DAAE1EB1ED8F001FB7E5 /* Build configuration list for PBXProject "openBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B011DAAA1EB1ED8F001FB7E5;
+			productRefGroup = B011DAB41EB1ED8F001FB7E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B011DAB21EB1ED8F001FB7E5 /* openBook */,
+				B011DACB1EB1ED8F001FB7E5 /* openBookTests */,
+				B011DAD61EB1ED90001FB7E5 /* openBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B011DAB11EB1ED8F001FB7E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B011DAC61EB1ED8F001FB7E5 /* LaunchScreen.storyboard in Resources */,
+				B011DAEB1EB208F2001FB7E5 /* plachtor@2x.png in Resources */,
+				B011DAC31EB1ED8F001FB7E5 /* Assets.xcassets in Resources */,
+				B011DAEC1EB208F2001FB7E5 /* plachtor@3x.png in Resources */,
+				B011DAC11EB1ED8F001FB7E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B011DACA1EB1ED8F001FB7E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B011DAD51EB1ED90001FB7E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B011DAAF1EB1ED8F001FB7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B011DABE1EB1ED8F001FB7E5 /* ViewController.m in Sources */,
+				B0D702441EB2D11F000E6DA3 /* ST_BookView.m in Sources */,
+				B011DABB1EB1ED8F001FB7E5 /* AppDelegate.m in Sources */,
+				B011DAB81EB1ED8F001FB7E5 /* main.m in Sources */,
+				B0D7024E1EB2D28D000E6DA3 /* OpenBookToViewController.m in Sources */,
+				B0D702451EB2D11F000E6DA3 /* ST_openBookAnimation.m in Sources */,
+				B0D702461EB2D11F000E6DA3 /* ST_openBookSegue.m in Sources */,
+				B011DAFE1EB2136E001FB7E5 /* RedBookFromViewController.m in Sources */,
+				B011DAFF1EB2136E001FB7E5 /* RedBookToViewController.m in Sources */,
+				B011DAFD1EB2136E001FB7E5 /* AM_CustomTransition.m in Sources */,
+				B0D7024B1EB2D27F000E6DA3 /* OpenBookFromViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B011DAC81EB1ED8F001FB7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B011DAD11EB1ED8F001FB7E5 /* openBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B011DAD31EB1ED90001FB7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B011DADC1EB1ED90001FB7E5 /* openBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B011DACE1EB1ED8F001FB7E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B011DAB21EB1ED8F001FB7E5 /* openBook */;
+			targetProxy = B011DACD1EB1ED8F001FB7E5 /* PBXContainerItemProxy */;
+		};
+		B011DAD91EB1ED90001FB7E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B011DAB21EB1ED8F001FB7E5 /* openBook */;
+			targetProxy = B011DAD81EB1ED90001FB7E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B011DABF1EB1ED8F001FB7E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B011DAC01EB1ED8F001FB7E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B011DAC41EB1ED8F001FB7E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B011DAC51EB1ED8F001FB7E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B011DADE1EB1ED90001FB7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B011DADF1EB1ED90001FB7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B011DAE11EB1ED90001FB7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 58Q3TS35HC;
+				INFOPLIST_FILE = openBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alpha.com.etiaolong.openBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B011DAE21EB1ED90001FB7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 58Q3TS35HC;
+				INFOPLIST_FILE = openBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alpha.com.etiaolong.openBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B011DAE41EB1ED90001FB7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = openBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alpha.com.etiaolong.openBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/openBook.app/openBook";
+			};
+			name = Debug;
+		};
+		B011DAE51EB1ED90001FB7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = openBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alpha.com.etiaolong.openBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/openBook.app/openBook";
+			};
+			name = Release;
+		};
+		B011DAE71EB1ED90001FB7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = openBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alpha.com.etiaolong.openBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = openBook;
+			};
+			name = Debug;
+		};
+		B011DAE81EB1ED90001FB7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = openBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alpha.com.etiaolong.openBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = openBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B011DAAE1EB1ED8F001FB7E5 /* Build configuration list for PBXProject "openBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B011DADE1EB1ED90001FB7E5 /* Debug */,
+				B011DADF1EB1ED90001FB7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B011DAE01EB1ED90001FB7E5 /* Build configuration list for PBXNativeTarget "openBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B011DAE11EB1ED90001FB7E5 /* Debug */,
+				B011DAE21EB1ED90001FB7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B011DAE31EB1ED90001FB7E5 /* Build configuration list for PBXNativeTarget "openBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B011DAE41EB1ED90001FB7E5 /* Debug */,
+				B011DAE51EB1ED90001FB7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B011DAE61EB1ED90001FB7E5 /* Build configuration list for PBXNativeTarget "openBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B011DAE71EB1ED90001FB7E5 /* Debug */,
+				B011DAE81EB1ED90001FB7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B011DAAB1EB1ED8F001FB7E5 /* Project object */;
+}
